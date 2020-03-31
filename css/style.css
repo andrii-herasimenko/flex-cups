@@ -1,0 +1,139 @@
+@font-face {
+	font-family: 'Miso';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Miso'), url('../fonts/miso.woff') format('woff');
+	}
+@font-face {
+		font-family: 'Myriad Pro Regular';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Myriad Pro Regular'), url('../fonts/MYRIADPRO-REGULAR.woff') format('woff');
+		}
+		
+body{
+	background-color: #fdde7e;
+	font-family: 'Lato', sans-serif;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+/* Layout */
+.ba-container{
+	max-width: 1200px;
+	
+}
+p{
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-section{
+display: flex;
+flex-wrap: wrap;
+background: #fdde7e;
+
+}
+.ba-list{
+	background: #fff;
+	flex-basis: 360px;
+	margin: 80px 30px 80px 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.special{
+	margin: 50px 0 50px 0;
+	
+}
+.ba-list-first-item{
+color: #02995b;
+font-family: 'Miso';
+font-size: 75px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 1.75px;
+margin-bottom: 40px;
+padding-top: 50px;
+}
+.ba-list-first-item-special{
+	color: #02995b;
+font-family: 'Miso';
+font-size: 75px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 1.75px;
+margin-bottom: 50px;
+padding-top: 60px;
+}
+.ba-image{
+	margin-bottom: 35px;
+}
+.ba-image-special{
+	margin-bottom: 44px;
+}
+.ba-list-second-item{
+	font-family: 'Myriad Pro Regular';
+	font-size: 56px;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+.ba-list-third-item{
+	font-family: 'Myriad Pro Regular';
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 37px;
+}
+.ba-list-third-item-special{
+	font-family: 'Myriad Pro Regular';
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 56px;
+}
+
